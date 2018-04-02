@@ -9,4 +9,5 @@ level 2 > 3 - bandit3, UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 level 3 > 4 - bandit4, pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 level 4 > 5 - bandit5, koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 level 5 > 6 - bandit6, DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-level 6 > 7 -
+level 6 > 7 - bandit7, HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+level 7 > 8 - bandit8, cvX2JJa4CFALtqS87jk27qwqGhBM9plV
