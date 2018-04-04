@@ -23,3 +23,36 @@ bandit10, truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 level 10 > 11 -
 base64 -d data.txt
 bandit11, IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+level 11 > 12 -
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+bandit12, 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+level 12 > 13 -
+xxd -r data.txt (move the file to rename it, then gunzip the file.gz, bzip2 -d, and tar archives use tar xvf file)
+bandit13, 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+level 13 > 14 -
+nmap localhost ; ssh bandit14@localhost -i ./sshkey.private
+login and cat /etc/bandit_pass/bandit14
+bandit14, 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+level 14 > 15 -
+nc -vvv localhost 30000 (provide bandit14, password)
+bandit15, BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+level 15 > 16 -
+openssl s_client -connect localhost:30001 (use -ign_eof if HEARTBEATING and Read R BLOCK error appears)
+bandit16, cluFn7wTiGryunymYOu4RcffSxQluehd
+
+level 16 > 17 -
+nmap -sV -vv -p 31000-32000 localhost
+cat /etc/bandit_pass/bandit16 | openssl s_client -connect localhost:31790 -quiet
+mkdir /tmp/mykey
+nano /tmp/mykey/sshkey.pem
+chmod 600 /tmp/mykey/sshkey.pem bandit17@localhost
+(cat /etc/bandit_pass/bandit17 to get xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn)
+
+level 17 > 18 -
+diff passwords.new passwords.old
+bandit 18, kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
