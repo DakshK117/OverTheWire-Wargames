@@ -51,8 +51,13 @@ cat /etc/bandit_pass/bandit16 | openssl s_client -connect localhost:31790 -quiet
 mkdir /tmp/mykey
 nano /tmp/mykey/sshkey.pem
 chmod 600 /tmp/mykey/sshkey.pem bandit17@localhost
-(cat /etc/bandit_pass/bandit17 to get xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn)
+cat /etc/bandit_pass/bandit17 to get xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 
 level 17 > 18 -
 diff passwords.new passwords.old
 bandit 18, kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+level 18 > 19 -
+ssh -t bandit18.labs.overthewire.org -p 2220 /bin/sh
+cat readme in pseudo-terminal
+bandit19, IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
