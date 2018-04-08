@@ -61,3 +61,36 @@ level 18 > 19 -
 ssh -t bandit18.labs.overthewire.org -p 2220 /bin/sh
 cat readme in pseudo-terminal
 bandit19, IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+level 19 > 20 -
+./bandit20-do cat /etc/bandit_pass/bandit20
+bandit20, GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+level 20 > 21 -
+echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l 12345
+(seperate terminal) ./suconnect 12345
+bandit 21, gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+level 21 > 22 -
+bandit22, Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+level 22 > 23 -
+cat cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+cat /tmp/(hash from mytarget)
+bandit23, jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+level 23 > 24 -
+bandit24, UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+level 24 > 25 -
+for i in {0..9}; do for j in {0..9}; do for k in {0..9}; do for l in {0..9}; do x=`echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i$j$k$l"`; echo $x; done; done; done; done | nc localhost 30002
+bandit25, uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+level 25 > 26 -
+cat /usr/bin/showtext
+ssh -i bandit26.sshkey bandit26@localhost
+reduce window size to show "more" before logging out.
+Hit v to enter text edit then type ":e /etc/bandit_pass/bandit26" to view password
+bandit26, 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
