@@ -9,7 +9,7 @@ SSH into the second level using the password `ougahZi8Ta`
 
 There's a executable called `printfile`. The program seems to run like `cat`,
 
-```
+```bash
 leviathan2@leviathan:~$ ./printfile /etc/leviathan_pass/leviathan3
 You cant have that file...
 ```
@@ -44,7 +44,7 @@ So if the output is successful, the program simply executes `/bin/cat "filename"
 Since the filename is passed into a string and executed in the shell, we can have a space in our filename so the program will `cat` a second file and display it.
 We already have a dummy file, so we can create `dummy pass.txt` and `pass.txt`. Create one file `dummy pass.txt` so the access function has something to check and return a successful output with. We already have a seperate file `dummy` to have a space between the two files. Then finally, create a symbolic link to the file `pass.txt`. Since the program's effective user id is for the next level, it executes cat as the next level's user.
 
-```
+```bash
 leviathan2@leviathan:/tmp/playfield$ touch "dummy pass.txt"
 leviathan2@leviathan:/tmp/playfield$ ln -s /etc/leviathan_pass/leviathan3 pass.txt
 leviathan2@leviathan:/tmp/playfield$ ls
