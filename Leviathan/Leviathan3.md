@@ -7,7 +7,7 @@
 
 SSH into the second level using the password `Ahdiemoo1j`
 
-By learning from previous levels, we know that the password for this level is stored at `/etc/leviathan_pass/leviathan3`, but we don't have access to that file.
+By learning from previous levels, we know that the password for this level is stored at `/etc/leviathan_pass/leviathan4`, but we don't have access to that file.
 
 Like the previous level, there is a executable named `level3` which requires a password.
 Run `ltrace` to check how the executable file runs.
