@@ -41,4 +41,4 @@ ahy7MaeBo9
 Running `./leviathan6` with the correct pin gives you a shell with leviathan7 permissions.
 Using `cat /etc/leviathan_pass/leviathan7` returns `ahy7MaeBo9`
 
-The password found for the last level is `ahy7MaeBo9`.
+The password found for the last level is `ahy7MaeBo9`
