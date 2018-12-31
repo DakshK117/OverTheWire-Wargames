@@ -2,7 +2,7 @@
 
 ### [Project Leviathan:](http://overthewire.org/wargames/leviathan/)
 
-#### Leviathan Level 3 -> 4
+#### Leviathan Level 4 -> 5
 > There is no information for this level, intentionally.
 
 The password for the previous level was `Tith4cokei`
