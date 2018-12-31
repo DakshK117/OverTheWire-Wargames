@@ -6,7 +6,7 @@
 
 ### Order of Wargames Completed:
 - [x] [Bandit](http://overthewire.org/wargames/bandit/)
-- [ ] [Leviathan](http://overthewire.org/wargames/leviathan/)
+- [x] [Leviathan](http://overthewire.org/wargames/leviathan/)
 - [ ] [Natas](http://overthewire.org/wargames/natas/)
 - [ ] [Krypton](http://overthewire.org/wargames/krypton/)
 - [ ] [Narnia](http://overthewire.org/wargames/narnia/)
