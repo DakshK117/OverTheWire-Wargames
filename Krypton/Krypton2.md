@@ -2,13 +2,13 @@
 
 ### [Project Krypton:](http://overthewire.org/wargames/krypton/)
 
-#### Krypton Level 1 -> 2
+#### Krypton Level 2 -> 3
 
 ssh into Level2 with the password `rotten`
 
 the readme file has a lot of useful information
 
-```bash
+```console
 krypton2@krypton:/krypton/krypton2$ cat README
 Krypton 2
 
@@ -91,4 +91,4 @@ This lets us infer that the key is 12 since Each letter in 'ABC' was shifted twe
 
 Use an online decoder to switch each letter by 12 to get the final password.
 
-The password for Krypton3 is `caesariseasy`
+The password for Krypton3 is `CAESARISEASY`

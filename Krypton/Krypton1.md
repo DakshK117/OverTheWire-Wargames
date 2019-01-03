@@ -2,7 +2,7 @@
 
 ### [Project Krypton:](http://overthewire.org/wargames/krypton/)
 
-#### Krypton Level 0 -> 1
+#### Krypton Level 0 -> 1 and 1-> 2
 
 The first level gives us the password which is encrypted.
 
