@@ -18,12 +18,12 @@ One way people find directories and files are through scrapers that browse the i
 
 Going to 'http://natas2.natas.labs.overthewire.org/robots.txt' shows us another interesting comment:
 
-'''html
+```html
 User-agent: *
 Disallow: /s3cr3t/
-'''
+```
 
-So apparently scrapers are not allowed to access a subdirectory: '/s3cr3t/'
+So apparently scrapers are not allowed to access a subdirectory: `/s3cr3t/`
 
 Going to 'http://natas3.natas.labs.overthewire.org/s3cr3t/' shows the users.txt file which has the password for natas4
 
