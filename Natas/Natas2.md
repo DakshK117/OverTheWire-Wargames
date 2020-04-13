@@ -2,7 +2,7 @@
 
 ### [Project Natas:](http://overthewire.org/wargames/natas/)
 
-#### Leviathan Level 2
+#### Natas Level 2
 
 We login into level 2 and are greeted with very little information. The website says that there's nothing available on the site, so we should take a look at the html code for the site.
 

@@ -2,7 +2,7 @@
 
 ### [Project Natas:](http://overthewire.org/wargames/natas/)
 
-#### Leviathan Level 0
+#### Natas Level 0
 
 Welcome to Project Natas, this wargame is quite long with 34 levels in total.
 Unlike Project Bandit and Project Leviathan, Natas is based on serverside web-security without an SSH login.

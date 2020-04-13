@@ -2,7 +2,7 @@
 
 ### [Project Natas:](http://overthewire.org/wargames/natas/)
 
-#### Leviathan Level 1
+#### Natas Level 1
 
 Alright, we can login to the site with the credentials found from the previous level.
 However, right clicking is blocked but the password is still on the page.
