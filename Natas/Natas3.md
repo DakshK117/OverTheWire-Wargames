@@ -18,7 +18,7 @@ One way people find directories and files are through scrapers that browse the i
 
 Going to 'http://natas2.natas.labs.overthewire.org/robots.txt' shows us another interesting comment:
 
-'''
+'''html
 User-agent: *
 Disallow: /s3cr3t/
 '''
